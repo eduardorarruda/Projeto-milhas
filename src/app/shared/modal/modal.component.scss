@@ -1,0 +1,61 @@
+.modal {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  h1 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .selecao-idade {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      list-style-type: none;
+      margin: 0 0 0 -1rem;
+      padding: 0;
+      li {
+        width: 10rem;
+        margin-bottom: 10px;
+        margin: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1d1b20;
+        text-align: center;
+        padding: 0;
+        span {
+          vertical-align: middle;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+  h2 {
+    padding: 10px;
+    margin-top: -1rem;
+  }
+  .tipo-Categoria {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1d1b20;
+    text-align: start;
+    padding: 0;
+  }
+  .selecao-categoria {
+    margin-top: 3px;
+    color: #1d1b20;
+  }
+}
+.button {
+  button {
+    width: 248px;
+    height: 36px;
+    margin-left: 1rem;
+  }
+}

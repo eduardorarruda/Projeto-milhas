@@ -1,0 +1,50 @@
+.form-busca {
+  background-color: #f5f5f5;
+  margin: 2.5rem 0;
+  border-radius: 0.5rem;
+  display: block;
+  .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 0.76rem;
+    margin: 1rem 0;
+  }
+  .input-container {
+    margin-bottom: -1.25rem;
+  }
+  .mat-button-toggle-checked {
+    background-color: #f7f2fa;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .troca {
+    background-color: transparent;
+    border-color: transparent;
+    margin: -1rem;
+  }
+
+  .button-busca {
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .date1 {
+    margin-left: 1rem;
+  }
+
+  .voo {
+    width: 20rem;
+  }
+
+  .ida-volta {
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+  }
+}
